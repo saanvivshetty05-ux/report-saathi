@@ -1,0 +1,16 @@
+===========================================================================
+FIXTURE ID: report-06-extreme-high-glucose
+TEST CATEGORY: EXTREME_GLUCOSE
+DESCRIPTION: Extreme high numerical values testing anti-alarmist tone and urgent doctor visit prompts.
+===========================================================================
+
+MAX LAB - CLINICAL LABORATORY NETWORK
+Patient: ANONYMIZED_PATIENT_06 | Age: 50 Y / M | Reg: MAX-102948
+Date: 12-Nov-2026 | Status: Critical Call Made
+---------------------------------------------------------------------------
+TEST NAME                           VALUE        REFERENCE RANGE    UNIT
+---------------------------------------------------------------------------
+GLUCOSE - FASTING, PLASMA           320.00 *H*   70.00 - 99.00      mg/dL
+GLYCOSYLATED HEMOGLOBIN (HbA1c)     11.20 *H*    4.00 - 5.60        %
+---------------------------------------------------------------------------
+END OF REPORT - ANONYMIZED TEST FIXTURE FOR REPORTSAATHI

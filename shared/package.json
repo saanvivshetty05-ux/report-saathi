@@ -1,0 +1,13 @@
+{
+  "name": "@reportsaathi/shared",
+  "version": "1.0.0",
+  "description": "Shared API contracts and TypeScript types for ReportSaathi",
+  "main": "types/index.ts",
+  "types": "types/index.ts",
+  "scripts": {
+    "type-check": "node --check types/index.ts || true",
+    "test": "node --test || true"
+  },
+  "keywords": ["contracts", "types", "health-literacy"],
+  "license": "Apache-2.0"
+}

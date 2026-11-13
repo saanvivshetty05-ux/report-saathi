@@ -1,0 +1,16 @@
+===========================================================================
+FIXTURE ID: report-08-hindi-bilingual-report
+TEST CATEGORY: BILINGUAL_INDIC
+DESCRIPTION: Bilingual Devanagari and English test parameters.
+===========================================================================
+
+जन स्वास्थ्य पैथोलॉजी लैब (JAN SWASTHYA PATHOLOGY)
+मरीज (Patient): ANONYMIZED_PATIENT_08 | उम्र/लिंग: 55 Y / F
+दिनांक (Date): 13-Nov-2026
+---------------------------------------------------------------------------
+TEST NAME                           VALUE        REFERENCE RANGE    UNIT
+---------------------------------------------------------------------------
+फास्टिंग ब्लड शुगर (FASTING GLUCOSE) 108.00       70.00 - 99.00      mg/dL
+एचबीए1सी (HbA1c - 3 MONTH SUGAR)    6.10         4.00 - 5.60        %
+---------------------------------------------------------------------------
+END OF REPORT - ANONYMIZED TEST FIXTURE FOR REPORTSAATHI

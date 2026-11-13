@@ -1,0 +1,17 @@
+===========================================================================
+FIXTURE ID: report-04-local-lab-dotmatrix
+TEST CATEGORY: LOCAL_LAB_DOTMATRIX
+DESCRIPTION: Independent neighborhood lab with older dot-matrix formatting and mg% units.
+===========================================================================
+
+SHANTI CLINICAL PATHOLOGY LABORATORY (ESTD. 1998)
+Pt: ANONYMIZED_PATIENT_04 | 67 Y / F | S.No: 1042
+Dt: 12/11/2026 | Coll Time: 08:30 AM
+---------------------------------------------------------------------------
+TEST NAME                           VALUE        REFERENCE RANGE    UNIT
+---------------------------------------------------------------------------
+B.SUGAR (FASTING)                   142.0        70.0 - 110.0       mg%
+B.SUGAR (P.P. 2HRS)                 210.0        80.0 - 140.0       mg%
+URINE SUGAR (FASTING)               NIL          NIL                
+---------------------------------------------------------------------------
+END OF REPORT - ANONYMIZED TEST FIXTURE FOR REPORTSAATHI

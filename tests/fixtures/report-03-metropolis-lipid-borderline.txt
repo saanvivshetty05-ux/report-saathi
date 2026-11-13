@@ -1,0 +1,19 @@
+===========================================================================
+FIXTURE ID: report-03-metropolis-lipid-borderline
+TEST CATEGORY: LIPID_BORDERLINE
+DESCRIPTION: Elevated Total Cholesterol, Triglycerides, LDL with Low HDL.
+===========================================================================
+
+METROPOLIS HEALTHCARE LIMITED
+Patient: ANONYMIZED_PATIENT_03 | Age/Sex: 52 Y / M | Reg ID: MET-992811
+Date: 11-Nov-2026 | Ref: Dr. P. Mehta
+---------------------------------------------------------------------------
+TEST NAME                           VALUE        REFERENCE RANGE    UNIT
+---------------------------------------------------------------------------
+CHOLESTEROL, TOTAL                  225.00 *H*   < 200.00           mg/dL
+TRIGLYCERIDES                       195.00 *H*   < 150.00           mg/dL
+HDL CHOLESTEROL (GOOD)              38.00 *L*    > 40.00            mg/dL
+LDL CHOLESTEROL (CALCULATED)        148.00 *H*   < 100.00           mg/dL
+VLDL CHOLESTEROL                    39.00        < 30.00            mg/dL
+---------------------------------------------------------------------------
+END OF REPORT - ANONYMIZED TEST FIXTURE FOR REPORTSAATHI

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ReportSaathi | रिपोर्ट साथी - System Verification</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <header class="header">
+      <h1>ReportSaathi | रिपोर्ट साथी</h1>
+      <p>Educational Diagnostic Report Companion</p>
+    </header>
+
+    <section class="card" aria-labelledby="status-title">
+      <h2 id="status-title">System & Database Status</h2>
+      
+      <div id="status-badge" class="status-badge status-connecting" role="status" aria-live="polite">
+        Initializing...
+      </div>
+
+      <div class="data-field">
+        <div class="data-label">Database Read Verification</div>
+        <div id="db-value" class="data-value">Loading database record...</div>
+      </div>
+
+      <div class="data-field">
+        <div class="data-label">System Version</div>
+        <div id="version-value" class="data-value">Checking...</div>
+      </div>
+
+      <div class="data-field">
+        <div class="data-label">Last Checked Timestamp</div>
+        <div id="timestamp-value" class="data-value">-</div>
+      </div>
+
+      <button id="health-check-btn" class="btn-primary" type="button">
+        Refresh Backend Health
+      </button>
+    </section>
+
+    <footer class="disclaimer-card">
+      <strong>⚖️ Statutory Disclaimer:</strong> ReportSaathi is an educational health literacy tool, not a medical diagnostic device. It does not provide medical advice or diagnosis. Always consult a Registered Medical Practitioner (RMP).
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

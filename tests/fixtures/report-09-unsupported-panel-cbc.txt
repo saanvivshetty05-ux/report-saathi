@@ -1,0 +1,17 @@
+===========================================================================
+FIXTURE ID: report-09-unsupported-panel-cbc
+TEST CATEGORY: UNSUPPORTED_PANEL
+DESCRIPTION: Hematology / CBC report. Negative test case testing scope capping and polite rejection.
+===========================================================================
+
+SUBURBAN DIAGNOSTICS (NABL)
+Patient: ANONYMIZED_PATIENT_09 | Age: 34 Y / M | ID: SUB-9182
+Date: 13-Nov-2026
+---------------------------------------------------------------------------
+TEST NAME                           VALUE        REFERENCE RANGE    UNIT
+---------------------------------------------------------------------------
+HEMOGLOBIN                          13.50        13.00 - 17.00      g/dL
+TOTAL LEUCOCYTE COUNT (WBC)         7500.00      4000.00 - 11000.00 /cumm
+PLATELET COUNT                      250000.00    150000 - 450000    /cumm
+---------------------------------------------------------------------------
+END OF REPORT - ANONYMIZED TEST FIXTURE FOR REPORTSAATHI

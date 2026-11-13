@@ -1,0 +1,17 @@
+===========================================================================
+FIXTURE ID: report-02-agilus-sugar-elevated
+TEST CATEGORY: SUGAR_ELEVATED
+DESCRIPTION: Fasting blood sugar and 3-month HbA1c outside lab printed range.
+===========================================================================
+
+AGILUS DIAGNOSTICS LABS (CAP & NABL ACCREDITED)
+Patient: ANONYMIZED_PATIENT_02 | Age/Sex: 58 Y / F | Reg ID: AGL-449102
+Date: 11-Nov-2026 | Ref: Dr. A. K. Verma
+---------------------------------------------------------------------------
+TEST NAME                           VALUE        REFERENCE RANGE    UNIT
+---------------------------------------------------------------------------
+FASTING BLOOD SUGAR (FBS)           118.00 *H*   70.00 - 99.00      mg/dL
+HbA1c (Glycated Hemoglobin)         6.90 *H*     4.00 - 5.60        %
+AVERAGE ESTIMATED BLOOD GLUCOSE     151.20       90.00 - 120.00     mg/dL
+---------------------------------------------------------------------------
+END OF REPORT - ANONYMIZED TEST FIXTURE FOR REPORTSAATHI

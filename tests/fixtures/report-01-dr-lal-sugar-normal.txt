@@ -1,0 +1,17 @@
+===========================================================================
+FIXTURE ID: report-01-dr-lal-sugar-normal
+TEST CATEGORY: SUGAR_NORMAL
+DESCRIPTION: All parameters within standard lab reference range.
+===========================================================================
+
+DR. LAL PATHLABS LTD. (NABL ACCREDITED)
+Patient: ANONYMIZED_PATIENT_01 | Age/Sex: 45 Y / M | Reg ID: DLP-889102
+Date: 10-Nov-2026 | Ref: Dr. Self
+---------------------------------------------------------------------------
+TEST NAME                           VALUE        REFERENCE RANGE    UNIT
+---------------------------------------------------------------------------
+GLUCOSE, FASTING                    88.00        70.00 - 99.00      mg/dL
+HbA1c (Glycosylated Hemoglobin)     5.20         4.00 - 5.60        %
+ESTIMATED AVERAGE GLUCOSE (eAG)     102.60       90.00 - 120.00     mg/dL
+---------------------------------------------------------------------------
+END OF REPORT - ANONYMIZED TEST FIXTURE FOR REPORTSAATHI

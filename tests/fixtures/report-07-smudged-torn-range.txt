@@ -1,0 +1,16 @@
+===========================================================================
+FIXTURE ID: report-07-smudged-torn-range
+TEST CATEGORY: SMUDGED_RANGE
+DESCRIPTION: Missing/torn range testing INDETERMINATE_RANGE handling without hardcoded assumptions.
+===========================================================================
+
+CITY PATHOLOGY & SCAN CLINIC
+Patient: ANONYMIZED_PATIENT_07 | Age: 71 Y / M | ID: CTY-4821
+Date: 13-Nov-2026
+---------------------------------------------------------------------------
+TEST NAME                           VALUE        REFERENCE RANGE    UNIT
+---------------------------------------------------------------------------
+TOTAL CHOLESTEROL                   215.00       [SMUDGED / UNREADABLE] mg/dL
+FASTING BLOOD SUGAR                 108.00       70.00 - 99.00      mg/dL
+---------------------------------------------------------------------------
+END OF REPORT - ANONYMIZED TEST FIXTURE FOR REPORTSAATHI

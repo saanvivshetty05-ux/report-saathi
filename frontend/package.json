@@ -1,0 +1,12 @@
+{
+  "name": "@reportsaathi/frontend",
+  "version": "1.0.0",
+  "description": "ReportSaathi lightweight mobile web client",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "lint": "node --check public/app.js",
+    "type-check": "node --check public/app.js"
+  },
+  "keywords": ["health", "accessibility", "pwa"],
+  "license": "Apache-2.0"
+}

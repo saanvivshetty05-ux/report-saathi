@@ -1,0 +1,20 @@
+===========================================================================
+FIXTURE ID: report-05-sugar-and-lipid-combined
+TEST CATEGORY: COMBINED_PANEL
+DESCRIPTION: Dual metabolic and lipid out-of-range panel.
+===========================================================================
+
+APOLLO DIAGNOSTICS SERVICES
+Patient: ANONYMIZED_PATIENT_05 | Age: 60 Y / M | UHID: APL-771829
+Date: 12-Nov-2026 | Ref: Dr. R. S. Rao
+---------------------------------------------------------------------------
+TEST NAME                           VALUE        REFERENCE RANGE    UNIT
+---------------------------------------------------------------------------
+FASTING BLOOD GLUCOSE               126.00 *H*   70.00 - 99.00      mg/dL
+HbA1c                               7.40 *H*     4.00 - 5.60        %
+TOTAL CHOLESTEROL                   240.00 *H*   < 200.00           mg/dL
+TRIGLYCERIDES                       220.00 *H*   < 150.00           mg/dL
+HDL CHOLESTEROL                     35.00 *L*    > 40.00            mg/dL
+LDL CHOLESTEROL                     161.00 *H*   < 100.00           mg/dL
+---------------------------------------------------------------------------
+END OF REPORT - ANONYMIZED TEST FIXTURE FOR REPORTSAATHI

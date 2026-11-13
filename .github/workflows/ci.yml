@@ -1,0 +1,81 @@
+name: CI Pipeline
+
+on:
+  push:
+    branches: [ main, "task-*" ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  backend-ci:
+    name: Backend Lint, Type-Check & Tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.13
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: "pip"
+
+      - name: Install System Dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y tesseract-ocr tesseract-ocr-hin libgl1-mesa-glx
+
+      - name: Install Python Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r backend/requirements.txt
+          pip install -r backend/requirements-dev.txt
+
+      - name: Run Ruff Linter
+        run: |
+          ruff check backend/ shared/
+
+      - name: Run Mypy Type Checker
+        run: |
+          mypy --config-file backend/mypy.ini backend/ shared/
+
+      - name: Run Backend Unit & Contract Tests
+        run: |
+          python -m unittest discover -s backend/tests -p "test_*.py"
+
+  frontend-ci:
+    name: Frontend Lint & Smoke Tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Run Frontend Lint & Syntax Check
+        run: |
+          npm --prefix frontend run lint
+
+      - name: Run Frontend Smoke Tests
+        run: |
+          npm --prefix frontend test
+
+  contract-validation:
+    name: API Contract & Schema Integrity
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Validate Shared Contract JSON Schema
+        run: |
+          python -c "import json; json.load(open('shared/schemas/contract.json'))"
+          python scripts/check.py
